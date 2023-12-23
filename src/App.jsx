@@ -1,35 +1,46 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import ResponsiveAppBar from "./components/ResponsiveAppBar";
 
-function App() {
-  const [count, setCount] = useState(0)
+import './App.css';
+import { Route, Routes } from 'react-router-dom';
+import { Box } from '@mui/material';
+import { Home } from './pages/Home';
+import { Proyectos } from './pages/Proyectos';
+import { SobreMi } from './pages/SobreMi';
+import { Contacto } from './pages/Contacto';
 
-  return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+export const App = () => {
+    // navbar links
+    const navbarLinks = [
+        {
+            title: 'Home',
+            path: "ale-fernandez/"
+        },
+        {
+            title: 'sobtre mi',
+            path: "ale-fernandez/SobreMi"
+        },
+        {
+            title: 'proyectos',
+            path: "ale-fernandez/Proyectos"
+        },
+        {
+            title: 'contacto',
+            path: "ale-fernandez/Contacto"
+        }];
+
+    return (
+        <>
+                <ResponsiveAppBar navbarLinks={navbarLinks} />
+                <Box sx={{
+                }}>
+                    <Routes>
+                        <Route path='ale-fernandez/' element={<Home />} />
+                        <Route path='ale-fernandez/Proyectos' element={<Proyectos />} />
+                        <Route path='ale-fernandez/SobreMi' element={<SobreMi />} />
+                        <Route path='ale-fernandez/Contacto' element={<Contacto />} />
+                    </Routes>
+                </Box>
+
+        </>
+    )
 }
-
-export default App
