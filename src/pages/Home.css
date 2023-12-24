@@ -53,6 +53,7 @@
     animation: fadeInAnimation 1s 1.8s backwards;
     white-space: nowrap;
     border-radius: 0.5rem;
+    background: #100f0f85;
 }
 .home-page .flat-button:hover {
     background: #009688;

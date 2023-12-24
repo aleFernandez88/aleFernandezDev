@@ -55,7 +55,7 @@ export const Home = () => {
           <h2>
              React | Sass | Material UI | Github | Java Script
           </h2>
-          <Link to="/contact" className="flat-button">
+          <Link to="https://apricot-leshia-77.tiiny.site/" target='_blank' className="flat-button">
             MIRA MI CV
           </Link>
         </div>

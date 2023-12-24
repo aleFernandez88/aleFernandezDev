@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
-import { Typography, Box, Button, Stack } from '@mui/material'
+import { Typography, Box, Stack } from '@mui/material'
 import { Parallax } from "react-parallax"
+import { Link } from 'react-router-dom'
 import img1 from "../assets/img/bg-body-33.png"
 
 export default function BannerCV(props) {
@@ -10,7 +11,7 @@ export default function BannerCV(props) {
       <Box className={`${props.bg}`} sx={{
         width: '100%',
         maxWidth: "1500",
-        padding: "50px ",
+        padding: "150px ",
         margin: "10px 0 auto",
         position: "relative"
       }}
@@ -43,12 +44,15 @@ export default function BannerCV(props) {
           className='subtitleBannerCV'
         >
           {props.subtitle}
-        </Typography>
+        </Typography> 
         <Stack
           position={"relative"}
           direction={"row"}
-          justifyContent={"center"}>
-          <Button variant="contained" disableElevation  className='bannerCV-button'>PRESIONAME</Button>
+          justifyContent={"center"}
+          alignItems={"center"}>
+          <Link to="https://www.linkedin.com/in/alefernandez88/" target='_blank' className='bannerCV-button'>
+            SIGUEME
+          </Link>
         </Stack>
       </Box>
     </Parallax>
