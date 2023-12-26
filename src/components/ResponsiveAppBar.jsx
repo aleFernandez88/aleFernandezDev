@@ -43,7 +43,7 @@ function ResponsiveAppBar() {
 
         <>
         <Container>
-            <AppBar position="relative" className="pruebaaaa">
+            <AppBar color="transparent" position="relative" className="pruebaaaa">
                 <Toolbar sx={{ justifyContent: "space-between" }}>
                     <IconButton
                         color="inherit"

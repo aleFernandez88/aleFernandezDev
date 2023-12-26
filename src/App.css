@@ -15,7 +15,7 @@
 }
 
 body {
-    background: url(../src/assets/img/489350.jpg) top/cover fixed no-repeat;
+    background: url(../src/assets/img/bg-op-2.jpg) top/cover fixed no-repeat;
 }
 
 body::before {
@@ -40,22 +40,12 @@ a:active {
 }
 
 header {
-    background: url(../src/assets/img/489350.jpg) top/cover fixed no-repeat;
-    color: var(--primary-color) !important;
+    color: var(--primary-color) !important; 
     z-index: 10;
     box-shadow: none !important;
     height: 80px;
 }
 
-header::before {
-    content: '';
-    background-color: var(--text-shadow-primary);
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
 
 header a,
 .appBar-link {
@@ -227,7 +217,8 @@ a.rotate-box-2:hover {
 }
 
 .gridContainerSkills .boxSkills span {
-    background-color: var(--secondary-color);
+    background-color: #0d0a0b;
+    background-image: linear-gradient(355deg, #101010 0%, var(--secondary-color) 66%);
     border-radius: 2px;
 }
 
@@ -301,6 +292,8 @@ a.rotate-box-2:hover {
     transition: all .6s;
     opacity: 0;
     background: none repeat scroll 0 0 var(--secondary-color);
+    background-color: #0d0a0b;
+    background-image: linear-gradient(315deg, #0d0a0b 0%, #009fc2 87%);
 }
 
 .portfolio_single_content img {

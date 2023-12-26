@@ -11,7 +11,7 @@ export default function BannerCV(props) {
       <Box className={`${props.bg}`} sx={{
         width: '100%',
         maxWidth: "1500",
-        padding: "150px ",
+        padding: "150px 0",
         margin: "10px 0 auto",
         position: "relative"
       }}
