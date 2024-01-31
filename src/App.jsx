@@ -13,19 +13,19 @@ export const App = () => {
     const navbarLinks = [
         {
             title: 'Home',
-            path: ""
+            path: "/"
         },
         {
             title: 'sobtre mi',
-            path: "SobreMi"
+            path: "/sobreMi"
         },
         {
             title: 'proyectos',
-            path: "Proyectos"
+            path: "/proyectos"
         },
         {
             title: 'contacto',
-            path: "Contacto"
+            path: "/contacto"
         }];
 
     return (
@@ -34,10 +34,10 @@ export const App = () => {
                 <Box sx={{
                 }}>
                     <Routes>
-                        <Route path='' element={<Home />} />
-                        <Route path='Proyectos' element={<Proyectos />} />
-                        <Route path='SobreMi' element={<SobreMi />} />
-                        <Route path='Contacto' element={<Contacto />} />
+                        <Route path='/' element={<Home />} />
+                        <Route path='/proyectos' element={<Proyectos />} />
+                        <Route path='/sobreMi' element={<SobreMi />} />
+                        <Route path='/contacto' element={<Contacto />} />
                     </Routes>
                 </Box>
 

@@ -20,22 +20,22 @@ function ResponsiveAppBar() {
     const navbarLinks = [
         {
             title: 'home',
-            path: "",
+            path: "/",
             icon: <HomeTwoToneIcon />
         },
         {
             title: 'sobre mi',
-            path: "SobreMi",
+            path: "sobreMi",
             icon: <InfoTwoToneIcon />
         },
         {
             title: 'proyectos',
-            path: "Proyectos",
+            path: "proyectos",
             icon: <WorkTwoToneIcon />
         },
         {
             title: 'contacto',
-            path: "Contacto",
+            path: "contacto",
             icon: <ContactPageTwoToneIcon />
         }];
 

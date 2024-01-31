@@ -4,11 +4,16 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea } from '@mui/material';
+import Link from '@mui/material/Link';
 
 export const CardProject = (props) => {
     return (
         <Card sx={{ maxWidth: 345}} className='portfolio_single_content'>
             <CardActionArea >
+            <Link 
+            target="_blank"
+            rel="noopener"
+            href={props.projects.url} >
                 <CardMedia
                     component="img"
                     height="300"
@@ -23,6 +28,7 @@ export const CardProject = (props) => {
                         {props.projects.subtitle}
                     </Typography>
                 </CardContent>
+                </Link>
             </CardActionArea>
         </Card>
     )
