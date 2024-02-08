@@ -1,6 +1,6 @@
 :root {
     --primary-color: #fefefe;
-    --secondary-color: #009688;
+    --secondary-color: #C8FA5F;
     --text-shadow-primary: rgba(0, 0, 0, 0.64);
 }
 
@@ -15,7 +15,7 @@
 }
 
 body {
-    background: url(../src/assets/img/bg-copia-1.jpg) top/cover fixed no-repeat;
+    background: url(../src/assets/img/bg-dark-2.jpg) top/cover fixed no-repeat;
 }
 
 body::before {
