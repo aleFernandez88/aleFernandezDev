@@ -62,7 +62,7 @@ function ResponsiveAppBar() {
         <Toolbar disableGutters>
           <Box sx={{ flexGrow: 0, justifyContent: "space-around" }}>
             <img
-              src="../assets/img/logo/Ale Fernández-logo.png"
+              src="/src/assets/img/Ale Fernández-logo.png"
               className="logoHeader"
             />
           </Box>
