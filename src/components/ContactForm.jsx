@@ -7,7 +7,7 @@ export const ContactForm = () => {
     return (
         
             <Box className="BgForm">
-            <TitleInformation title={"contacto"} subtitle={"todo para contactarme"} sx={{color:"#fefefe"}}/>
+            <TitleInformation title={"contacto"} subtitle={"estoy en cualquier opción"} sx={{color:"#fefefe"}}/>
                 <Container>
                     <Grid container
                         justifyContent={"space-between"}>

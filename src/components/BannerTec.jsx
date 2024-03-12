@@ -3,15 +3,15 @@ import { Box } from '@mui/material'
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
-import pngegg from "../assets/img/pngegg.png"
-import pngegg0 from "../assets/img/pngegg(1).png"
-import pngegg1 from "../assets/img/pngegg(2).png"
-import pngegg2 from "../assets/img/pngegg(3).png"
-import pngegg3 from "../assets/img/pngegg(4).png"
-import pngegg4 from "../assets/img/pngegg(5).png"
-import pngegg5 from "../assets/img/pngegg(6).png"
-import pngegg6 from "../assets/img/pngegg(7).png"
-import pngegg7 from "../assets/img/pngegg(8).png"
+import pngegg from "../assets/img/skills/pngegg.png"
+import pngegg0 from "../assets/img/skills/pngegg(1).png"
+import pngegg1 from "../assets/img/skills/pngegg(2).png"
+import pngegg2 from "../assets/img/skills/pngegg(3).png"
+import pngegg3 from "../assets/img/skills/pngegg(4).png"
+import pngegg4 from "../assets/img/skills/pngegg(5).png"
+import pngegg5 from "../assets/img/skills/pngegg(6).png"
+import pngegg6 from "../assets/img/skills/pngegg(7).png"
+import pngegg7 from "../assets/img/skills/pngegg(8).png"
 
 
 export default function BannerTec() {

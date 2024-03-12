@@ -38,7 +38,7 @@ export const NavListDrawer = () => {
 
     return (
         <>
-            <Box sx={{ width: '250px', maxWidth: 360, bgcolor: 'background.paper' }}>
+            {/* <Box sx={{ width: '250px', maxWidth: 360, bgcolor: 'background.paper' }}>
                 <nav aria-label="main mailbox folders">
                     <List>
                         {navbarLinks.map((page) => (
@@ -54,7 +54,7 @@ export const NavListDrawer = () => {
                         ))}
                     </List>
                 </nav>
-            </Box>
+            </Box> */}
         </>
     )
 }

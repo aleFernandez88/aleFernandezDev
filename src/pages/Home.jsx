@@ -12,7 +12,7 @@ export const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
 
   const nameArray = 'Ale'.split('')
-  const jobArray = 'Fernandez'.split('')
+  const jobArray = 'Fernández'.split('')
   const interestArray = 'Front-end Developer'.split('')
 
   useEffect(() => {
@@ -53,9 +53,9 @@ export const Home = () => {
             />
           </Typography>
           <h2>
-             React | Sass | Material UI | Github | Java Script
+             React | Vite | Tailwind | Github | Agile 
           </h2>
-          <Link to="https://alefernandezcv.tiiny.site" target='_blank' className="flat-button">
+          <Link to="https://online.flippingbook.com/view/51984168/" target='_blank' className="flat-button">
             MIRA MI CV
           </Link>
         </div>

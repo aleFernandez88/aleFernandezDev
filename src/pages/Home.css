@@ -31,11 +31,11 @@
     animation-delay: 1.4s;
 }
 .home-page h2 {
-    color: #fffbfb;
+    color: var(--secondary-color);
     margin-top: 20px;
     font-weight: 500;
-    font-size: 15px;
-    font-family: "HelveticaNeue";
+    font-size: 18px;
+    font-family: "Quicksand";
     letter-spacing: 3px;
     animation: fadeIn 1s 1.8s backwards;
 }

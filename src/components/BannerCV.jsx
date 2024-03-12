@@ -2,7 +2,7 @@
 import { Typography, Box, Stack } from '@mui/material'
 import { Parallax } from "react-parallax"
 import { Link } from 'react-router-dom'
-import img1 from "../assets/img/bg-body-33.png"
+import img1 from "../assets/img/bg-body-33.webp"
 
 export default function BannerCV(props) {
 

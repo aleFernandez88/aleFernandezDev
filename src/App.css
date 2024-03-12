@@ -14,8 +14,23 @@
     src: url(./assets/fonts/HelveticaNeue/HelveticaNeueRegular.otf);
 }
 
+@font-face {
+    font-family: "Archivo Narrow";
+    src: url(./assets/fonts/Archivo_Narrow/ArchivoNarrow-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "Nunito";
+    src: url(./assets/fonts/Nunito/Nunito-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "Quicksand";
+    src: url(./assets/fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
+}
+
 body {
-    background: url(../src/assets/img/bg-dark-2-min.jpg) top/cover fixed no-repeat;
+    background: url(../src/assets/img/bg-dark-2-min-1.webp) top/cover fixed no-repeat;
 }
 
 body::before {
@@ -40,16 +55,16 @@ a:active {
 }
 
 header {
-    color: var(--primary-color) !important; 
+    color: var(--primary-color) !important;
     z-index: 10;
     box-shadow: none !important;
-    height: 80px;
+    background-color: transparent!important;
 }
 
 
 header a,
 .appBar-link {
-    font-family: HelveticaNeue !important;
+    font-family: Quicksand !important;
     font-size: 1.3rem !important;
     font-weight: 500 !important;
     text-transform: capitalize !important;
@@ -66,7 +81,8 @@ header a,
 }
 
 .logoHeader {
-    width: 100%;
+    width: auto;
+    height: 100px;
 }
 
 .logoHeader-res {
@@ -83,7 +99,7 @@ header a,
 }
 
 .drawerBox {
-    background-color: rgb(0, 30, 48) !important;
+    background-color: rgb(35, 35, 35) !important;
     height: 100vh;
 }
 
@@ -486,6 +502,7 @@ label+.css-l4u8b9-MuiInputBase-root-MuiInput-root {
 
 .bannerCV-button:hover {
     background: var(--secondary-color) !important;
+    color: #0d0a0b !important;
 }
 
 .bannerCV-parallax::before {
@@ -533,4 +550,19 @@ label+.css-l4u8b9-MuiInputBase-root-MuiInput-root {
 .hvr-overline-from-center:active:before {
     left: 0;
     right: 0;
+}
+
+.css-3dzjca-MuiPaper-root-MuiPopover-paper-MuiMenu-paper{
+    background-color: #00000091 !important;
+    color: var(--secondary-color)!important;
+}
+
+.css-1l6rwmg-MuiLinearProgress-root.MuiLinearProgress-colorPrimary {
+	background-color: #eeeeee17!important;
+}
+
+@media (max-width: 1050px) {
+    .logoHeader{
+        height: 65px;
+    }
 }
