@@ -13,6 +13,7 @@ import InfoTwoToneIcon from "@mui/icons-material/InfoTwoTone";
 import WorkTwoToneIcon from "@mui/icons-material/WorkTwoTone";
 import ContactPageTwoToneIcon from "@mui/icons-material/ContactPageTwoTone";
 import { Link } from "react-router-dom";
+import logoHeader from "../assets/img/Ale Fernández-logo.png"
 
 const navbarLinks = [
   {
@@ -62,7 +63,7 @@ function ResponsiveAppBar() {
         <Toolbar disableGutters>
           <Box sx={{ flexGrow: 0, justifyContent: "space-around" }}>
             <img
-              src="/src/assets/img/Ale Fernández-logo.png"
+              src={logoHeader}
               className="logoHeader"
             />
           </Box>
