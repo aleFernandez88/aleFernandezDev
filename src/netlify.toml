@@ -1,0 +1,13 @@
+# netlify.toml
+[build]
+  command = "npm run build"
+  publish = "build"
+
+[prerender]
+  enabled = true
+  include = "/*"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
