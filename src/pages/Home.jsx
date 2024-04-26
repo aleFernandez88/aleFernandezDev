@@ -55,7 +55,7 @@ export const Home = () => {
           <h2>
              React | Vite | Tailwind | Github | Agile 
           </h2>
-          <Link to="https://online.flippingbook.com/view/51984168/" target='_blank' className="flat-button">
+          <Link to="https://drive.google.com/file/d/1fk7X559zCT_mFCbx9EnZqvCrRbMOjGYr/view?usp=sharing" target='_blank' className="flat-button">
             MIRA MI CV
           </Link>
         </div>
